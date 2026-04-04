@@ -11,7 +11,8 @@ export default function handler(req, res) {
     return res.status(200).end();
   }
 
-  const { code } = req.body || {};
+  // Support both query param (?code=EARLYBIRD) and body
+  const code = req.query.code || req.body?.code;
   const discount = CODES[code?.toUpperCase()];
 
   if (!discount) {
