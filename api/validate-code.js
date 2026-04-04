@@ -1,12 +1,10 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-const CODES: Record<string, number> = {
+const CODES = {
   'EARLYBIRD': 20,
   'FRIEND10': 10,
   'LAUNCH50': 50,
 };
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
+export default function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
   if (req.method === 'OPTIONS') {
