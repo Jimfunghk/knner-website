@@ -1,4 +1,4 @@
-import type { VercelRequest, VercelResponse } }
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const CODES: Record<string, number> = {
   'EARLYBIRD': 20,
