@@ -1,16 +1,13 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { TracingPaperCard } from '@/components/TracingPaperCard';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Mail, Send } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export function Contact() {
   const { theme } = useTheme();
   const { t } = useLanguage();
   const cardRef = useRef<HTMLDivElement>(null);
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -31,16 +28,6 @@ export function Contact() {
 
     return () => observer.disconnect();
   }, []);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setEmail('');
-      setMessage('');
-    }, 3000);
-  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
