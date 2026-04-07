@@ -7,7 +7,6 @@ import { Privacy } from '@/sections/Privacy';
 import { Efficiency } from '@/sections/Efficiency';
 import { Story } from '@/sections/Story';
 import { Languages } from '@/sections/Languages';
-import { DownloadSection } from '@/sections/Download';
 import { Contact } from '@/sections/Contact';
 import { Footer } from '@/sections/Footer';
 import './App.css';
@@ -25,7 +24,6 @@ function App() {
             <Efficiency />
             <Story />
             <Languages />
-            <DownloadSection />
             <Contact />
           </main>
           <Footer />

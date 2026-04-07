@@ -30,12 +30,7 @@ export function DownloadSection() {
   }, []);
 
   const platforms = [
-    { 
-      icon: Monitor, 
-      name: t('download.windows'), 
-      status: 'available',
-      link: 'https://github.com/Jimfunghk/knner-website/releases/download/v1.0.0/Knner_1.0.0_x64-setup.exe'
-    },
+    { icon: Monitor, name: t('download.windows'), status: 'soon' },
     { icon: Apple, name: t('download.macos'), status: 'soon' },
     { icon: Laptop, name: t('download.linux'), status: 'soon' },
   ];
