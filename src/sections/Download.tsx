@@ -30,9 +30,9 @@ export function DownloadSection() {
   }, []);
 
   const platforms = [
-    { icon: Monitor, name: t('download.windows'), status: 'soon' },
-    { icon: Apple, name: t('download.macos'), status: 'soon' },
-    { icon: Laptop, name: t('download.linux'), status: 'soon' },
+    { icon: Monitor, name: t('download.windows'), status: 'ready', link: 'https://github.com/Jimfunghk/knotwhisper/releases/download/v1.0.1/Knner_1.0.1_x64-setup.exe' },
+    { icon: Apple, name: t('download.macos'), status: 'soon', link: null },
+    { icon: Laptop, name: t('download.linux'), status: 'soon', link: null },
   ];
 
   return (
@@ -108,6 +108,14 @@ export function DownloadSection() {
                 >
                   <platform.icon className="w-6 h-6" />
                   <span className="font-medium">{platform.name}</span>
+                  {platform.status === 'ready' && (
+                    <span 
+                      className="text-xs"
+                      style={{ color: '#22c55e' }}
+                    >
+                      Download
+                    </span>
+                  )}
                 </a>
               ) : (
                 <button
@@ -133,6 +141,14 @@ export function DownloadSection() {
                       style={{ color: theme === 'dark' ? '#aaa' : '#666' }}
                     >
                       {t('download.soon')}
+                    </span>
+                  )}
+                  {platform.status === 'ready' && (
+                    <span 
+                      className="text-xs"
+                      style={{ color: '#22c55e' }}
+                    >
+                      Download
                     </span>
                   )}
                 </button>
