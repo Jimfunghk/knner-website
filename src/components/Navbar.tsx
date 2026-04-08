@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage, type Language } from '@/contexts/LanguageContext';
-import { Mic, Sun, Moon, Globe, Menu, X } from 'lucide-react';
+import { Sun, Moon, Globe, Menu, X } from 'lucide-react';
 
 const languages: { code: Language; label: string }[] = [
   { code: 'en', label: 'EN' },
@@ -61,22 +61,11 @@ export function Navbar() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
         >
-          <div 
-            className="w-8 h-8 rounded-lg flex items-center justify-center"
-            style={{
-              backgroundColor: theme === 'dark' 
-                ? 'rgba(255, 255, 255, 0.1)' 
-                : 'rgba(0, 0, 0, 0.08)'
-            }}
-          >
-            <Mic className="w-4 h-4" style={{ color: theme === 'dark' ? '#fff' : '#000' }} />
-          </div>
-          <span 
-            className="font-medium text-lg"
-            style={{ color: theme === 'dark' ? '#fff' : '#000' }}
-          >
-            Knner
-          </span>
+          <img 
+            src={theme === 'dark' ? '/images/logowebsite_light.png' : '/images/logowebsite_dark.png'} 
+            alt="Knner Logo" 
+            className="h-8 w-auto"
+          />
         </a>
 
         {/* Desktop controls */}
