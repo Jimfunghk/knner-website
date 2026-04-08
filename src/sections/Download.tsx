@@ -3,7 +3,8 @@ import { TracingPaperCard } from '@/components/TracingPaperCard';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Download, Apple, Monitor, Laptop } from 'lucide-react';
-
+//hahaha
+//force rebuild
 export function DownloadSection() {
   const { theme } = useTheme();
   const { t } = useLanguage();
