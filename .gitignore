@@ -1,0 +1,19 @@
+# Build output
+dist/
+
+# Root index.html (已刪除，唔好 restore)
+index.html
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
