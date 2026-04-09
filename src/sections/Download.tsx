@@ -31,7 +31,7 @@ export function DownloadSection() {
   }, []);
 
   const platforms = [
-    { icon: Monitor, name: t('download.windows'), status: 'ready', link: 'https://github.com/Jimfunghk/knotwhisper/releases/download/v1.0.1/Knner_1.0.1_x64-setup.exe' },
+    { icon: Monitor, name: t('download.windows'), status: 'ready', link: 'https://github.com/Jimfunghk/knotwhisper/releases/download/v1.0.3/Knner_1.0.3_x64-setup.exe' },
     { icon: Apple, name: t('download.macos'), status: 'soon', link: null },
     { icon: Laptop, name: t('download.linux'), status: 'soon', link: null },
   ];
