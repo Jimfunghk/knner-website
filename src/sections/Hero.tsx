@@ -119,8 +119,6 @@ export function Hero() {
           <div className="flex justify-center">
             <a 
               href="#download"
-              target="_blank"
-              rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg font-medium text-sm tracking-wide transition-all duration-300 hover:scale-105"
               style={{
                 backgroundColor: theme === 'dark' 
