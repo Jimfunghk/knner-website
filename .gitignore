@@ -1,8 +1,8 @@
 # Build output
 dist/
 
-# Root index.html (已刪除，唔好 restore)
-index.html
+# Root index.html - Vercel needs this for build, but GitHub Pages will serve dist/ instead
+# index.html
 
 # Dependencies
 node_modules/
