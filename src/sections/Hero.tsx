@@ -118,7 +118,7 @@ export function Hero() {
           {/* CTA Button */}
           <div className="flex justify-center">
             <a 
-              href="https://github.com/Jimfunghk/knotwhisper/releases/download/v1.0.3/Knner_1.0.3_x64-setup.exe"
+              href="#download"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg font-medium text-sm tracking-wide transition-all duration-300 hover:scale-105"
