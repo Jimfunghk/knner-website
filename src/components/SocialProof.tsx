@@ -2,26 +2,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Star, Users, Shield, Zap } from 'lucide-react';
 
-const testimonials = [
-  {
-    name: '陳小姐',
-    role: '香港行政助理',
-    content: '真係好方便！老細開會我再都唔使抄到手軟，直接語音輸入就自動變文字',
-    rating: 5,
-  },
-  {
-    name: 'Michael',
-    role: 'Software Engineer',
-    content: 'Works perfectly offline. Essential tool for my daily standups and documentation.',
-    rating: 5,
-  },
-  {
-    name: '阿偉',
-    role: 'Freelance Writer',
-    content: '用咗三個月，打字量少咗70%！又多時間寫多啲稿',
-    rating: 5,
-  },
-];
+const testimonialKeys = ['testimonial1', 'testimonial2', 'testimonial3'];
 
 export function SocialProof() {
   const { t, language } = useLanguage();
@@ -61,9 +42,9 @@ export function SocialProof() {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-6">
-          {testimonials.map((testimonial, index) => (
+          {testimonialKeys.map((key) => (
             <div 
-              key={index}
+              key={key}
               className="p-6 rounded-xl backdrop-blur"
               style={{ 
                 backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.03)',
@@ -71,16 +52,16 @@ export function SocialProof() {
               }}
             >
               <div className="flex gap-1 mb-4">
-                {Array.from({ length: testimonial.rating }).map((_, i) => (
+                {[1, 2, 3, 4, 5].map((i) => (
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
               <p className="mb-4 text-sm" style={{ color: subtextColor }}>
-                "{testimonial.content}"
+                "{t(`${key}.content`)}"
               </p>
               <div>
-                <p className="font-medium" style={{ color: textColor }}>{testimonial.name}</p>
-                <p className="text-xs opacity-60" style={{ color: subtextColor }}>{testimonial.role}</p>
+                <p className="font-medium" style={{ color: textColor }}>{t(`${key}.name`)}</p>
+                <p className="text-xs opacity-60" style={{ color: subtextColor }}>{t(`${key}.role`)}</p>
               </div>
             </div>
           ))}
