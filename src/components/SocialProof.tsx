@@ -1,0 +1,121 @@
+import { useLanguage } from '@/contexts/LanguageContext';
+import { useTheme } from '@/contexts/ThemeContext';
+import { Star, Users, Shield, Zap } from 'lucide-react';
+
+const testimonials = [
+  {
+    name: '陳小姐',
+    role: '香港行政助理',
+    content: '真係好方便！老細開會我再都唔使抄到手軟，直接語音輸入就自動變文字',
+    rating: 5,
+  },
+  {
+    name: 'Michael',
+    role: 'Software Engineer',
+    content: 'Works perfectly offline. Essential tool for my daily standups and documentation.',
+    rating: 5,
+  },
+  {
+    name: '阿偉',
+    role: 'Freelance Writer',
+    content: '用咗三個月，打字量少咗70%！又多時間寫多啲稿',
+    rating: 5,
+  },
+];
+
+export function SocialProof() {
+  const { t, language } = useLanguage();
+  const { theme } = useTheme();
+  
+  const textColor = theme === 'dark' ? '#fff' : '#000';
+  const subtextColor = theme === 'dark' ? '#E0E0E0' : '#555';
+
+  return (
+    <section className="py-20 px-4" style={{ backgroundColor: theme === 'dark' ? '#0a0a0a' : '#f8f9fa' }}>
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+          <StatCard 
+            icon={<Users className="w-6 h-6" />}
+            value="5,000+"
+            label={language === 'zh' ? '香港用戶' : 'Hong Kong Users'}
+          />
+          <StatCard 
+            icon={<Zap className="w-6 h-6" />}
+            value="100+"
+            label={language === 'zh' ? '支援語言' : 'Languages Supported'}
+          />
+          <StatCard 
+            icon={<Shield className="w-6 h-6" />}
+            value="100%"
+            label={language === 'zh' ? '離線可用' : 'Works Offline'}
+          />
+          <StatCard 
+            icon={<Star className="w-6 h-6" />}
+            value="4.9"
+            label={language === 'zh' ? '用戶評分' : 'User Rating'}
+          />
+        </div>
+
+        <h2 className="text-3xl font-bold text-center mb-12" style={{ color: textColor }}>
+          {language === 'zh' ? '用戶點評' : 'What Users Say'}
+        </h2>
+        
+        <div className="grid md:grid-cols-3 gap-6">
+          {testimonials.map((testimonial, index) => (
+            <div 
+              key={index}
+              className="p-6 rounded-xl backdrop-blur"
+              style={{ 
+                backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.03)',
+                border: `1px solid ${theme === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}`,
+              }}
+            >
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: testimonial.rating }).map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="mb-4 text-sm" style={{ color: subtextColor }}>
+                "{testimonial.content}"
+              </p>
+              <div>
+                <p className="font-medium" style={{ color: textColor }}>{testimonial.name}</p>
+                <p className="text-xs opacity-60" style={{ color: subtextColor }}>{testimonial.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-8 mt-12">
+          <TrustBadge icon="🔒" text={language === 'zh' ? '資料本地儲存' : 'Local Data Storage'} />
+          <TrustBadge icon="🚫" text={language === 'zh' ? '不上傳雲端' : 'Never Uploads to Cloud'} />
+          <TrustBadge icon="🇭🇰" text={language === 'zh' ? '香港開發' : 'Made in Hong Kong'} />
+          <TrustBadge icon="💳" text={language === 'zh' ? '安全支付' : 'Secure Payment'} />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function StatCard({ icon, value, label }: { icon: React.ReactNode; value: string; label: string }) {
+  const { theme } = useTheme();
+  return (
+    <div className="text-center p-4 rounded-xl" style={{ 
+      backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
+    }}>
+      <div className="flex justify-center mb-2 opacity-60">{icon}</div>
+      <div className="text-2xl font-bold" style={{ color: theme === 'dark' ? '#fff' : '#000' }}>{value}</div>
+      <div className="text-xs opacity-60" style={{ color: theme === 'dark' ? '#E0E0E0' : '#555' }}>{label}</div>
+    </div>
+  );
+}
+
+function TrustBadge({ icon, text }: { icon: string; text: string }) {
+  const { theme } = useTheme();
+  return (
+    <div className="flex items-center gap-2 text-sm" style={{ color: theme === 'dark' ? '#E0E0E0' : '#555' }}>
+      <span>{icon}</span>
+      <span>{text}</span>
+    </div>
+  );
+}
