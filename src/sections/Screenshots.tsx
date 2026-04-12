@@ -38,7 +38,7 @@ const screenshots = [
 ];
 
 export function Screenshots() {
-  const { language } = useLanguage();
+  const { t, language } = useLanguage();
   const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';
@@ -48,12 +48,10 @@ export function Screenshots() {
     <section className="py-20 px-4" style={{ backgroundColor: theme === 'dark' ? '#111' : '#fff' }}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4" style={{ color: textColor }}>
-          {language === 'zh' ? '截圖預覽' : 'Screenshot Preview'}
+          {t('screenshots.title')}
         </h2>
         <p className="text-center mb-12 opacity-60" style={{ color: subtextColor }}>
-          {language === 'zh' 
-            ? '了解 Knner 如何提升你的工作效率' 
-            : 'See how Knner boosts your productivity'}
+          {t('screenshots.subtitle')}
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -82,10 +80,10 @@ export function Screenshots() {
               </div>
               <div className="p-4">
                 <h3 className="font-medium mb-1" style={{ color: textColor }}>
-                  {language === 'zh' ? screenshot.title : screenshot.titleEn}
+                  {t(`screenshots.item${index}.title`)}
                 </h3>
                 <p className="text-sm opacity-60" style={{ color: subtextColor }}>
-                  {language === 'zh' ? screenshot.desc : screenshot.descEn}
+                  {t(`screenshots.item${index}.desc`)}
                 </p>
               </div>
             </div>
@@ -96,9 +94,7 @@ export function Screenshots() {
           backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
         }}>
           <p className="text-sm" style={{ color: subtextColor }}>
-            💡 {language === 'zh' 
-              ? '截圖尺寸建議：1920x1080 (16:9)，可使用 Lightshot 或 Windows Snipping Tool'
-              : 'Recommended screenshot size: 1920x1080 (16:9), use Lightshot or Windows Snipping Tool'}
+            💡 {t('screenshots.recommendation')}
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { Play } from 'lucide-react';
 
 export function DemoVideo() {
-  const { language } = useLanguage();
+  const { t, language } = useLanguage();
   const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';
@@ -13,12 +13,10 @@ export function DemoVideo() {
     <section className="py-20 px-4" style={{ backgroundColor: theme === 'dark' ? '#0a0a0a' : '#f8f9fa' }}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4" style={{ color: textColor }}>
-          {language === 'zh' ? '看看有多快' : 'See How Fast It Is'}
+          {t('video.title')}
         </h2>
         <p className="mb-8 opacity-60" style={{ color: subtextColor }}>
-          {language === 'zh' 
-            ? '30秒帶你了解 Knner 的強大功能' 
-            : '30 seconds to understand Knner\'s power'}
+          {t('video.subtitle')}
         </p>
 
         <div 
@@ -36,9 +34,7 @@ export function DemoVideo() {
                 <Play className="w-10 h-10 text-white fill-white" />
               </div>
               <p className="text-white text-sm opacity-60">
-                {language === 'zh' 
-                  ? '▶ 點擊播放 30秒介紹影片'
-                  : '▶ Click to play 30s intro video'}
+                {t('video.playPrompt')}
               </p>
             </div>
           </div>
@@ -64,14 +60,14 @@ export function DemoVideo() {
           backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
         }}>
           <h4 className="font-medium mb-2" style={{ color: textColor }}>
-            📝 {language === 'zh' ? '影片腳本（30秒）' : 'Video Script (30 seconds)'}
+            📝 {t('video.scriptTitle')}
           </h4>
           <div className="text-sm space-y-2" style={{ color: subtextColor }}>
-            <p><strong>0-3s:</strong> {language === 'zh' ? '展示語音輸入：對著麥克風說話' : 'Show voice input: Speak into the microphone'}</p>
-            <p><strong>4-8s:</strong> {language === 'zh' ? '文字即時出現，無延遲' : 'Text appears instantly, no delay'}</p>
-            <p><strong>9-15s:</strong> {language === 'zh' ? '展示多種語言切換' : 'Show switching between languages'}</p>
-            <p><strong>16-22s:</strong> {language === 'zh' ? '展示離線可用功能' : 'Show offline functionality'}</p>
-            <p><strong>23-28s:</strong> {language === 'zh' ? 'CTA: 現在免費下載' : 'CTA: Download for free now'}</p>
+            <p><strong>0-3s:</strong> {t('video.script1')}</p>
+            <p><strong>4-8s:</strong> {t('video.script2')}</p>
+            <p><strong>9-15s:</strong> {t('video.script3')}</p>
+            <p><strong>16-22s:</strong> {t('video.script4')}</p>
+            <p><strong>23-28s:</strong> {t('video.script5')}</p>
           </div>
         </div>
       </div>

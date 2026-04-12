@@ -37,27 +37,27 @@ export function SocialProof() {
           <StatCard 
             icon={<Users className="w-6 h-6" />}
             value="5,000+"
-            label={language === 'zh' ? '香港用戶' : 'Hong Kong Users'}
+            label={t('social.users')}
           />
           <StatCard 
             icon={<Zap className="w-6 h-6" />}
             value="100+"
-            label={language === 'zh' ? '支援語言' : 'Languages Supported'}
+            label={t('social.languages')}
           />
           <StatCard 
             icon={<Shield className="w-6 h-6" />}
             value="100%"
-            label={language === 'zh' ? '離線可用' : 'Works Offline'}
+            label={t('social.offline')}
           />
           <StatCard 
             icon={<Star className="w-6 h-6" />}
             value="4.9"
-            label={language === 'zh' ? '用戶評分' : 'User Rating'}
+            label={t('social.rating')}
           />
         </div>
 
         <h2 className="text-3xl font-bold text-center mb-12" style={{ color: textColor }}>
-          {language === 'zh' ? '用戶點評' : 'What Users Say'}
+          {t('social.testimonials')}
         </h2>
         
         <div className="grid md:grid-cols-3 gap-6">
@@ -87,10 +87,10 @@ export function SocialProof() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 mt-12">
-          <TrustBadge icon="🔒" text={language === 'zh' ? '資料本地儲存' : 'Local Data Storage'} />
-          <TrustBadge icon="🚫" text={language === 'zh' ? '不上傳雲端' : 'Never Uploads to Cloud'} />
-          <TrustBadge icon="🇭🇰" text={language === 'zh' ? '香港開發' : 'Made in Hong Kong'} />
-          <TrustBadge icon="💳" text={language === 'zh' ? '安全支付' : 'Secure Payment'} />
+          <TrustBadge icon="🔒" text={t('social.localStorage')} />
+          <TrustBadge icon="🚫" text={t('social.noCloud')} />
+          <TrustBadge icon="🇭🇰" text={t('social.madeInHK')} />
+          <TrustBadge icon="💳" text={t('social.securePayment')} />
         </div>
       </div>
     </section>
