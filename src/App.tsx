@@ -26,10 +26,10 @@ function App() {
           <main>
             <Hero />
             <SocialProof /> {/* NEW: Social proof section */}
+            <Screenshots /> {/* NEW: Screenshots section */}
             <Offline />
             <Privacy />
             <Efficiency />
-            <Screenshots /> {/* NEW: Screenshots section */}
             <DemoVideo /> {/* NEW: Demo video section */}
             <Story />
             <Languages />
