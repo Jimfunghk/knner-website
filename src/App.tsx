@@ -25,8 +25,8 @@ function App() {
           <Navbar />
           <main>
             <Hero />
-            <SocialProof /> {/* NEW: Social proof section */}
             <Screenshots /> {/* NEW: Screenshots section */}
+            <SocialProof /> {/* NEW: Social proof section */}
             <Offline />
             <Privacy />
             <Efficiency />
