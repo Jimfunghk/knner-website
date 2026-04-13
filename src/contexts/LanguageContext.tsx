@@ -314,7 +314,7 @@ const translations: Record<Language, Record<string, string>> = {
     'screenshots.title': 'Aperçu des captures',
     'screenshots.desc': 'Découvrez comment Knner booste votre productivité',
     'screenshots.main': 'Interface principale',
-    'screenshots.mainDesc': 'Pas de réseau, pas d'abonnement, toutes les données stockées localement, vie privée garantie.',
+    'screenshots.mainDesc': 'Pas de réseau, pas d\'abonnement, toutes les données stockées localement, vie privée garantie.',
     'screenshots.settings': 'Page des paramètres',
     'screenshots.settingsDesc': '15 thèmes de fond avec ajustement de la transparence, expérience visuelle entièrement personnalisée.',
     'screenshots.usage': 'Suivi d\'utilisation',
