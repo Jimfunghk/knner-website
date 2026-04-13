@@ -12,6 +12,10 @@ const screenshots = [
   },
   {
     image: '/images/desk.png',
+    key: 'screenshots.usage',
+  },
+  {
+    image: '/images/welcome.png',
     key: 'screenshots.floating',
   },
 ];
