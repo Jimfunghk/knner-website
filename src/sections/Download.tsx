@@ -1,3 +1,4 @@
+// trigger redeploy
 import { useEffect, useRef } from 'react';
 import { TracingPaperCard } from '@/components/TracingPaperCard';
 import { useTheme } from '@/contexts/ThemeContext';
