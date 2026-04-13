@@ -1,5 +1,5 @@
-import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useTheme } from '@/contexts/ThemeContext';
 
 const screenshots = [
   {
@@ -12,17 +12,13 @@ const screenshots = [
   },
   {
     image: '/images/desk.png',
-    key: 'screenshots.usage',
-  },
-  {
-    image: '/images/welcome.png',
     key: 'screenshots.floating',
   },
 ];
 
 export function Screenshots() {
-  const { theme } = useTheme();
   const { t } = useLanguage();
+  const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';
   const subtextColor = theme === 'dark' ? '#E0E0E0' : '#555';
@@ -30,13 +26,6 @@ export function Screenshots() {
   return (
     <section className="py-20 px-4" style={{ backgroundColor: theme === 'dark' ? '#111' : '#fff' }}>
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4" style={{ color: textColor }}>
-          {t('screenshots.title')}
-        </h2>
-        <p className="text-center mb-12 opacity-60" style={{ color: subtextColor }}>
-          {t('screenshots.desc')}
-        </p>
-
         <div className="grid md:grid-cols-2 gap-6">
           {screenshots.map((screenshot, index) => (
             <div 

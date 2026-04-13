@@ -5,7 +5,7 @@ import { Star, Users, Shield, Zap } from 'lucide-react';
 const testimonialKeys = ['testimonial1', 'testimonial2', 'testimonial3'];
 
 export function SocialProof() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';
@@ -17,7 +17,7 @@ export function SocialProof() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           <StatCard 
             icon={<Users className="w-6 h-6" />}
-            value="5,000+"
+            value="10,000+"
             label={t('social.users')}
           />
           <StatCard 

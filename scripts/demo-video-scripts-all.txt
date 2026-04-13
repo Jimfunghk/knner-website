@@ -1,0 +1,341 @@
+# Knner App - 30-Second Ad Scripts (All 10 Languages)
+
+---
+
+## 1. English (EN)
+
+**[0-3s] HOOK**
+"Stop typing. Start speaking. Knner transforms your voice into perfect text—instantly."
+
+**[3-6s] PROBLEM**
+"Tired of endless typing? Your fingers can't keep up with your thoughts."
+
+**[6-9s] SOLUTION**
+"Watch this: just speak, and watch Knner transcribe every word with pinpoint accuracy."
+
+**[9-12s] SPEED DEMO**
+(Keyboard typing sounds) "Knner types 4 to 8 times faster than you ever could—automatically."
+
+**[12-15s] OFFLINE**
+"And it works completely offline. No internet required, anywhere you go."
+
+**[15-18s] PRIVACY**
+"Your words stay yours. No cloud, no data ever leaves your device."
+
+**[18-21s] LANGUAGES**
+"Supports over 100 languages. Speak freely in any language you choose."
+
+**[21-24s] USE CASE**
+"Perfect for meetings, lectures, journaling, or any writing task."
+
+**[24-27s] SOCIAL PROOF**
+"Join 10,000+ happy users who've given Knner a 4.9-star rating."
+
+**[27-30s] CTA**
+"Download Knner now and never type again."
+
+---
+
+## 2. 繁體中文 (ZH-HK)
+
+**[0-3s] HOOK**
+"停止打字，開始說話。Knner 將你的聲音即時轉換為完美文字。"
+
+**[3-6s] PROBLEM**
+"受夠無止境的打字了嗎？你的手指跟不上你的思維。"
+
+**[6-9s] SOLUTION**
+"看看這個：只要說話，Knner 就能精準轉錄每一個字。"
+
+**[9-12s] SPEED DEMO**
+"（鍵盤打字聲）Knner 的速度是你的 4 到 8 倍——自動完成。"
+
+**[12-15s] OFFLINE**
+"而且完全離線也能用。無需網絡，隨處可用。"
+
+**[15-18s] PRIVACY**
+"你的話語只屬於你。不上雲端，數據永遠留在你的設備。"
+
+**[18-21s] LANGUAGES**
+"支援超過 100 種語言。自由選擇任何語言說話。"
+
+**[21-24s] USE CASE**
+"適合會議、課堂、寫日記或任何書寫任務。"
+
+**[24-27s] SOCIAL PROOF**
+"超過 10,000 名用戶正在使用，給予 Knner 4.9 星高度評價。"
+
+**[27-30s] CTA**
+"立即下載 Knner，告別打字。"
+
+---
+
+## 3. 日本語 (JA)
+
+**[0-3s] HOOK**
+"タイプを止めて、声を届けよう。Knnerがリアルタイムで完璧なテキストに変換。"
+
+**[3-6s] PROBLEM**
+"終わりのないタイピングに疲れていませんか？指が思考に追いつけない。"
+
+**[6-9s] SOLUTION**
+"見ての通り：話すだけで、Knnerがすべての言葉を正確に文字起こし。"
+
+**[9-12s] SPEED DEMO**
+"（キーボード入力音）Knnerはあなたの4〜8倍速く自動入力。"
+
+**[12-15s] OFFLINE**
+"完全にオフラインでも動作。インターネット不要、どこでも使える。"
+
+**[15-18s] PRIVACY**
+"あなたの言葉はあなたのもの。クラウドなし、データはデバイスから外出ない。"
+
+**[18-21s] LANGUAGES**
+"100以上の言語に対応。好きな言語で自由に話せる。"
+
+**[21-24s] USE CASE**
+"会議、講義、日記書き、どんな執筆タスクにも最適。"
+
+**[24-27s] SOCIAL PROOF**
+"10,000人以上のユーザーがKnnerに4.9つ星評価を与えています。"
+
+**[27-30s] CTA**
+"今すぐKnnerをダウンロードして、タイピング告别。"
+
+---
+
+## 4. Español (ES)
+
+**[0-3s] HOOK**
+"Deja de escribir. Empieza a hablar. Knner transforma tu voz en texto perfecto—instantáneamente."
+
+**[3-6s] PROBLEM**
+"¿Cansado de escribir sin parar? Tus dedos no pueden seguir el ritmo de tus pensamientos."
+
+**[6-9s] SOLUTION**
+"Mira esto: solo habla y Knner transcribe cada palabra con precisión total."
+
+**[9-12s] SPEED DEMO**
+"(Sonido de teclado) Knner escribe de 4 a 8 veces más rápido que tú—automáticamente."
+
+**[12-15s] OFFLINE**
+"Y funciona completamente sin internet. No lo necesitas en ningún lugar."
+
+**[15-18s] PRIVACY**
+"Tus palabras son tuyas. Sin nube, sin que tus datos salgan del dispositivo."
+
+**[18-21s] LANGUAGES**
+"Soporta más de 100 idiomas. Habla libremente en el idioma que elijas."
+
+**[21-24s] USE CASE**
+"Perfecto para reuniones, clases, escribir diario o cualquier tarea de escritura."
+
+**[24-27s] SOCIAL PROOF**
+"Únete a más de 10,000 usuarios felices que han dado a Knner 4.9 estrellas."
+
+**[27-30s] CTA**
+"Descarga Knner ahora y nunca más escribas."
+
+---
+
+## 5. Français (FR)
+
+**[0-3s] HOOK**
+"Arrêtez de taper. Commencez à parler. Knner transforme votre voix en texte parfait—instantanément."
+
+**[3-6s] PROBLEM**
+"Fatigué de taper sans fin ? Vos doigts ne peuvent pas suivre vos pensées."
+
+**[6-9s] SOLUTION**
+"Regardez : parlez simplement, et Knner transcrit chaque mot avec une précision parfaite."
+
+**[9-12s] SPEED DEMO**
+"(Bruit de clavier) Knner tape de 4 à 8 fois plus vite que vous—automatiquement."
+
+**[12-15s] OFFLINE**
+"Et ça fonctionne hors ligne. Pas besoin d'internet, où que vous alliez."
+
+**[15-18s] PRIVACY**
+"Vos mots vous appartiennent. Pas de cloud, vos données ne quittent jamais votre appareil."
+
+**[18-21s] LANGUAGES**
+"Prend en charge plus de 100 langues. Parlez librement dans la langue de votre choix."
+
+**[21-24s] USE CASE**
+"Parfait pour les réunions, les cours, la rédaction ou toute tâche d'écriture."
+
+**[24-27s] SOCIAL PROOF**
+"Rejoignez plus de 10 000 utilisateurs satisfaits qui ont donné à Knner 4,9 étoiles."
+
+**[27-30s] CTA**
+"Téléchargez Knner maintenant et ne tapez plus jamais."
+
+---
+
+## 6. Deutsch (DE)
+
+**[0-3s] HOOK**
+"Hör auf zu tippen. Fang an zu sprechen. Knner verwandelt deine Stimme in perfekten Text—sofort."
+
+**[3-6s] PROBLEM**
+"Genervt vom endlosen Tippen? Deine Finger können mit deinen Gedanken nicht mithalten."
+
+**[6-9s] SOLUTION**
+"Schau her: Sprich einfach, und Knner transkribiert jedes Wort haargenau."
+
+**[9-12s] SPEED DEMO**
+"(Tastaturgeräusche) Knner tippt 4 bis 8 Mal schneller als du—automatisch."
+
+**[12-15s] OFFLINE**
+"Und es funktioniert komplett offline. Kein Internet nötig, egal wo du bist."
+
+**[15-18s] PRIVACY**
+"Deine Worte bleiben deine. Keine Cloud, keine Daten verlassen je dein Gerät."
+
+**[18-21s] LANGUAGES**
+"Unterstützt über 100 Sprachen. Sprich frei in jeder Sprache deiner Wahl."
+
+**[21-24s] USE CASE**
+"Perfekt für Meetings, Vorlesungen, Tagebuchschreiben oder jede Schreibeaufgabe."
+
+**[24-27s] SOCIAL PROOF**
+"Schließe dich über 10.000 zufriedenen Nutzern an, die Knner mit 4,9 Sternen bewertet haben."
+
+**[27-30s] CTA**
+"Lade Knner jetzt herunter und tippe nie wieder."
+
+---
+
+## 7. Português (PT)
+
+**[0-3s] HOOK**
+"Pare de digitar. Comece a falar. Knner transforma sua voz em texto perfeito—instantaneamente."
+
+**[3-6s] PROBLEM**
+"Cansado de digitar sem parar? Seus dedos não conseguem acompanhar seus pensamentos."
+
+**[6-9s] SOLUTION**
+"Veja: apenas fale e o Knner transcreve cada palavra com precisão absoluta."
+
+**[9-12s] SPEED DEMO**
+"(Som de teclado) Knner digita de 4 a 8 vezes mais rápido que você—automaticamente."
+
+**[12-15s] OFFLINE**
+"E funciona completamente offline. Sem internet necessária, em qualquer lugar."
+
+**[15-18s] PRIVACY**
+"Suas palavras são suas. Sem nuvem, seus dados nunca saem do seu dispositivo."
+
+**[18-21s] LANGUAGES**
+"Suporta mais de 100 idiomas. Fale livremente no idioma que escolher."
+
+**[21-24s] USE CASE**
+"Perfeito para reuniões, aulas, diários ou qualquer tarefa de escrita."
+
+**[24-27s] SOCIAL PROOF**
+"Junte-se a mais de 10.000 usuários felizes que deram ao Knner 4,9 estrelas."
+
+**[27-30s] CTA**
+"Baixe o Knner agora e nunca mais digite."
+
+---
+
+## 8. Русский (RU)
+
+**[0-3s] HOOK**
+"Перестаньте печатать. Начните говорить. Knner превращает ваш голос в идеальный текст — мгновенно."
+
+**[3-6s] PROBLEM**
+"Устали от бесконечного набора? Ваши пальцы не успевают за мыслями."
+
+**[6-9s] SOLUTION**
+"Смотрите: просто говорите, и Knner с точностью переведёт каждое слово."
+
+**[9-12s] SPEED DEMO**
+"(Звук клавиатуры) Knner печатает в 4-8 раз быстрее вас — автоматически."
+
+**[12-15s] OFFLINE**
+"И работает полностью офлайн. Интернет не нужен, где бы вы ни были."
+
+**[15-18s] PRIVACY**
+"Ваши слова остаются вашими. Без облака, данные никогда не покидают устройство."
+
+**[18-21s] LANGUAGES**
+"Поддерживает более 100 языков. Говорите свободно на любом языке."
+
+**[21-24s] USE CASE**
+"Идеально для встреч, лекций, ведения дневника или любых письменных задач."
+
+**[24-27s] SOCIAL PROOF**
+"Присоединяйтесь к более чем 10 000 довольных пользователей, которые оценили Knner на 4.9 звёзд."
+
+**[27-30s] CTA**
+"Скачайте Knner прямо сейчас и больше никогда не печатайте."
+
+---
+
+## 9. Italiano (IT)
+
+**[0-3s] HOOK**
+"Smetti di digitare. Inizia a parlare. Knner trasforma la tua voce in testo perfetto—istantaneamente."
+
+**[3-6s] PROBLEM**
+"Stanco di digitare senza sosta? Le tue dita non riescono a stare al passo con i tuoi pensieri."
+
+**[6-9s] SOLUTION**
+"Guarda: basta parlare e Knner trascrive ogni parola con precisione assoluta."
+
+**[9-12s] SPEED DEMO**
+"(Suono tastiera) Knner digita da 4 a 8 volte più veloce di te—automaticamente."
+
+**[12-15s] OFFLINE**
+"E funziona completamente offline. Nessun internet richiesto, ovunque tu sia."
+
+**[15-18s] PRIVACY**
+"Le tue parole restano tue. Nessun cloud, i tuoi dati non escono mai dal dispositivo."
+
+**[18-21s] LANGUAGES**
+"Supporta più di 100 lingue. Parla liberamente nella lingua che preferisci."
+
+**[21-24s] USE CASE**
+"Perfetto per riunioni, lezioni, diario o qualsiasi compito di scrittura."
+
+**[24-27s] SOCIAL PROOF**
+"Unisciti a più di 10.000 utenti soddisfatti che hanno dato a Knner 4,9 stelle."
+
+**[27-30s] CTA**
+"Scarica Knner ora e non digitare mai più."
+
+---
+
+## 10. 한국어 (KO)
+
+**[0-3s] HOOK**
+"타이핑을 멈추고 말하세요. Knner가 당신의 목소리를 즉시 완벽한 텍스트로 변환합니다."
+
+**[3-6s] PROBLEM**
+"끝없는 타이핑에 지쳤나요? 당신의 손가락이 당신의 생각 따라잡지 못합니다."
+
+**[6-9s] SOLUTION**
+"보세요: 말만 하면 Knner가 모든 단어를 정확하게 변환해 드립니다."
+
+**[9-12s] SPEED DEMO**
+"(키보드 타이핑 소리) Knner가 당신보다 4~8배 빠르게 자동 입력합니다."
+
+**[12-15s] OFFLINE**
+"완전한 오프라인에서도 작동합니다. 인터넷 없이도 어디서든 사용할 수 있어요."
+
+**[15-18s] PRIVACY**
+"당신의 말은 당신のもの입니다. 클라우드 없이, 데이터가 기기를 벗어날 수 없습니다."
+
+**[18-21s] LANGUAGES**
+"100개 이상의 언어를 지원합니다. 원하는 어떤 언어로든 자유롭게 말하세요."
+
+**[21-24s] USE CASE**
+"회의, 강의, 일기, 어떤 글쓰기 작업에든 완벽합니다."
+
+**[24-27s] SOCIAL PROOF**
+"10,000명 이상의 사용자가 Knner에 4.9점을 부여했습니다."
+
+**[27-30s] CTA**
+"지금 바로 Knner를 다운로드하고 타이핑을 떠나보내세요."

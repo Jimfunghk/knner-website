@@ -3,7 +3,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { Play } from 'lucide-react';
 
 export function DemoVideo() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';

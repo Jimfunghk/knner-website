@@ -1,0 +1,71 @@
+==========================================
+KNNER 30-SECOND DEMO VIDEO SCRIPT
+==========================================
+
+ORDER: EN → ZH → JA → ES → FR → DE → PT → RU → IT → KO
+Each segment: ~3 seconds
+
+------------------------------------------
+[0-3s] INTRODUCTION (English)
+------------------------------------------
+"Meet Knner. Your thoughts, instantly on screen."
+
+------------------------------------------
+[3-6s] ENGLISH DEMO
+------------------------------------------
+"This is really incredible software."
+
+------------------------------------------
+[6-9s] CHINESE (繁體)
+------------------------------------------
+"這語音辨識真的非常厲害。"
+
+------------------------------------------
+[9-12s] JAPANESE
+------------------------------------------
+"この音声認識は本当にすごい。"
+
+------------------------------------------
+[12-15s] SPANISH
+------------------------------------------
+"Este reconocimiento de voz es increíble."
+
+------------------------------------------
+[15-18s] FRENCH
+------------------------------------------
+"Cette reconnaissance vocale est vraiment incroyable."
+
+------------------------------------------
+[18-21s] GERMAN
+------------------------------------------
+"Diese Spracherkennung ist wirklich erstaunlich."
+
+------------------------------------------
+[21-24s] PORTUGUESE
+------------------------------------------
+"Este reconhecimento de voz é realmente incrível."
+
+------------------------------------------
+[24-27s] RUSSIAN
+------------------------------------------
+"Это распознавание речи действительно удивительно."
+
+------------------------------------------
+[27-30s] FINAL CTA
+------------------------------------------
+"Knner. Works offline. 100+ languages. Free download."
+
+==========================================
+ALTERNATIVE VERSION (Language Focus)
+==========================================
+
+0-3s:   "Meet Knner - Works offline, speaks 100+ languages"
+3-6s:   "This is really incredible"
+6-9s:   "這語音辨識真的非常厲害"
+9-12s:  "この音声認識は本当にすごい"
+12-15s: "Este reconocimiento de voz es increíble"
+15-18s: "Cette reconnaissance vocale est vraiment incroyable"
+18-21s: "Diese Spracherkennung ist wirklich erstaunlich"
+21-24s: "Este reconhecimento de voz é realmente incrível"
+24-27s: "Это распознавание речи действительно удивительно"
+27-30s: "이 음성 인식을 정말 대단하다" + Download CTA

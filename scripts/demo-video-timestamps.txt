@@ -1,0 +1,16 @@
+==========================================
+TIMESTAMP GUIDE FOR VIDEO EDITING
+==========================================
+
+00:00 - 00:03 | EN | Introduction
+00:03 - 00:06 | EN | English demo
+00:06 - 00:09 | ZH | Chinese demo
+00:09 - 00:12 | JA | Japanese demo
+00:12 - 00:15 | ES | Spanish demo
+00:15 - 00:18 | FR | French demo
+00:18 - 00:21 | DE | German demo
+00:21 - 00:24 | PT | Portuguese demo
+00:24 - 00:27 | RU | Russian demo
+00:27 - 00:30 | EN | Call to action
+
+TOTAL: 30 seconds
