@@ -16,7 +16,7 @@ export function DemoVideo() {
           {t('video.title')}
         </h2>
         <p className="mb-8 opacity-60" style={{ color: subtextColor }}>
-          {t('video.subtitle')}
+          {t('video.desc')}
         </p>
 
         <div 
@@ -34,7 +34,7 @@ export function DemoVideo() {
                 <Play className="w-10 h-10 text-white fill-white" />
               </div>
               <p className="text-white text-sm opacity-60">
-                {t('video.playPrompt')}
+                {t('video.play')}
               </p>
             </div>
           </div>
@@ -60,14 +60,10 @@ export function DemoVideo() {
           backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
         }}>
           <h4 className="font-medium mb-2" style={{ color: textColor }}>
-            📝 {t('video.scriptTitle')}
+            📝 {t('video.script')}
           </h4>
           <div className="text-sm space-y-2" style={{ color: subtextColor }}>
-            <p><strong>0-3s:</strong> {t('video.script1')}</p>
-            <p><strong>4-8s:</strong> {t('video.script2')}</p>
-            <p><strong>9-15s:</strong> {t('video.script3')}</p>
-            <p><strong>16-22s:</strong> {t('video.script4')}</p>
-            <p><strong>23-28s:</strong> {t('video.script5')}</p>
+            <p>{t('video.script')}</p>
           </div>
         </div>
       </div>

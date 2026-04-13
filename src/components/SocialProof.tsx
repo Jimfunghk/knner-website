@@ -68,9 +68,9 @@ export function SocialProof() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 mt-12">
-          <TrustBadge icon="🔒" text={t('social.localStorage')} />
+          <TrustBadge icon="🔒" text={t('social.localData')} />
           <TrustBadge icon="🚫" text={t('social.noCloud')} />
-          <TrustBadge icon="🇭🇰" text={t('social.madeInHK')} />
+          <TrustBadge icon="🇭🇰" text={t('social.madeHK')} />
           <TrustBadge icon="💳" text={t('social.securePayment')} />
         </div>
       </div>
