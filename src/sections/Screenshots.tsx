@@ -1,44 +1,31 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
-import { Monitor, Smartphone, Settings, BarChart3 } from 'lucide-react';
 
 const screenshots = [
   {
-    icon: Monitor,
-    title: '主要介面',
-    titleEn: 'Main Interface',
-    desc: '簡潔易用，一鍵錄音',
-    descEn: 'Clean interface, one-tap recording',
-    placeholder: '📸 主要介面截圖',
+    image: '/images/talk.png',
+    titleKey: 'screenshots.main',
+    descKey: 'screenshots.mainDesc',
   },
   {
-    icon: Settings,
-    title: '設定頁面',
-    titleEn: 'Settings Page',
-    desc: '自訂語言、按鍵、速記',
-    descEn: 'Customize language, hotkeys, shortcuts',
-    placeholder: '📸 設定頁面截圖',
+    image: '/images/setting.png',
+    titleKey: 'screenshots.settings',
+    descKey: 'screenshots.settingsDesc',
   },
   {
-    icon: BarChart3,
-    title: '用量追蹤',
-    titleEn: 'Usage Tracking',
-    desc: '清晰顯示已用 / 剩餘額度',
-    descEn: 'Clear usage limits display',
-    placeholder: '📸 用量追蹤截圖',
+    image: '/images/desk.png',
+    titleKey: 'screenshots.usage',
+    descKey: 'screenshots.usageDesc',
   },
   {
-    icon: Smartphone,
-    title: '悬浮球模式',
-    titleEn: 'Floating Ball Mode',
-    desc: '隨時錄音，不阻礙',
-    descEn: 'Record anytime, stays out of the way',
-    placeholder: '📸 悬浮球模式截圖',
+    image: '/images/welcome.png',
+    titleKey: 'screenshots.floating',
+    descKey: 'screenshots.floatingDesc',
   },
 ];
 
 export function Screenshots() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const { theme } = useTheme();
   
   const textColor = theme === 'dark' ? '#fff' : '#000';
@@ -65,37 +52,27 @@ export function Screenshots() {
               }}
             >
               <div 
-                className="aspect-video flex items-center justify-center"
-                style={{ backgroundColor: theme === 'dark' ? '#1a1a1a' : '#f0f0f0' }}
+                className="aspect-video flex items-center justify-center bg-black"
               >
-                <div className="text-center">
-                  <screenshot.icon className="w-16 h-16 mx-auto mb-4 opacity-30" style={{ color: textColor }} />
-                  <p className="text-sm opacity-50" style={{ color: subtextColor }}>
-                    {screenshot.placeholder}
-                  </p>
-                  <p className="text-xs mt-2 opacity-30" style={{ color: subtextColor }}>
-                    (Replace with actual screenshot)
-                  </p>
-                </div>
+                <img 
+                  src={screenshot.image} 
+                  alt={t(screenshot.titleKey)}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }}
+                />
               </div>
               <div className="p-4">
                 <h3 className="font-medium mb-1" style={{ color: textColor }}>
-                  {t(`screenshots.item${index}.title`)}
+                  {t(screenshot.titleKey)}
                 </h3>
                 <p className="text-sm opacity-60" style={{ color: subtextColor }}>
-                  {t(`screenshots.item${index}.desc`)}
+                  {t(screenshot.descKey)}
                 </p>
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-8 p-4 rounded-lg text-center" style={{ 
-          backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
-        }}>
-          <p className="text-sm" style={{ color: subtextColor }}>
-            💡 {t('screenshots.recommendation')}
-          </p>
         </div>
       </div>
     </section>
